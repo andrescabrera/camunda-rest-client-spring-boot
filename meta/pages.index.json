@@ -1,0 +1,69 @@
+{
+  "ownKey": "pages",
+  "childrenPages": {
+    "license": {
+      "ownKey": "license",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://camunda.github.io/camunda-rest-client-spring-boot",
+          "fileName": "license",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://camunda.github.io/camunda-rest-client-spring-boot/license"
+        },
+        "description": "",
+        "title": "License",
+        "content": ""
+      }]
+    },
+    "support-matrix": {
+      "ownKey": "support-matrix",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://camunda.github.io/camunda-rest-client-spring-boot",
+          "fileName": "support-matrix",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://camunda.github.io/camunda-rest-client-spring-boot/support-matrix"
+        },
+        "description": "",
+        "title": "Support Matrix",
+        "content": "<div class=\"sect1\">\n<h2 id=\"_support_matrix\">Support Matrix<\/h2>\n<div class=\"sectionbody\">\n\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_runtime_service_0_0_1\">Runtime Service @ 0.0.1<\/h2>\n<div class=\"sectionbody\">\n<div class=\"ulist\">\n<ul>\n<li>\n<p><code># startProcessInstanceByKey<\/code><\/p>\n<\/li>\n<li>\n<p><code># startProcessInstanceById<\/code><\/p>\n<\/li>\n<li>\n<p><code># correlateMessage<\/code><\/p>\n<\/li>\n<li>\n<p><code># createMessageCorrelation<\/code><\/p>\n<\/li>\n<li>\n<p><code># signal<\/code><\/p>\n<\/li>\n<li>\n<p><code># signalEventReceived<\/code><\/p>\n<\/li>\n<li>\n<p><code># createSignalEvent<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariable<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariables<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariable<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariables<\/code><\/p>\n<\/li>\n<li>\n<p><code># removeVariable<\/code><\/p>\n<\/li>\n<li>\n<p><code># removeVariables<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariableTyped<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariablesTyped<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariableTyped<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariablesTyped<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariableLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariablesLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariableLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariablesLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># removeVariableLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># removeVariablesLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariableTypedLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># getVariablesTypedLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariableTypedLocal<\/code><\/p>\n<\/li>\n<li>\n<p><code># setVariablesTypedLocal<\/code><\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_repositoryservice_0_0_1\">RepositoryService @ 0.0.1<\/h2>\n<div class=\"sectionbody\">\n<div class=\"ulist\">\n<ul>\n<li>\n<p><code># createProcessDefinitionQuery<\/code><\/p>\n<\/li>\n<\/ul>\n<\/div>\n<\/div>\n<\/div>"
+      }]
+    },
+    "changelog": {
+      "ownKey": "changelog",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://camunda.github.io/camunda-rest-client-spring-boot",
+          "fileName": "changelog",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://camunda.github.io/camunda-rest-client-spring-boot/changelog"
+        },
+        "description": "",
+        "title": "Changelog",
+        "content": ""
+      }]
+    },
+    "quick-start": {
+      "ownKey": "quick-start",
+      "ownPages": [{
+        "reference": {
+          "path": "",
+          "baseUrl": "https://camunda.github.io/camunda-rest-client-spring-boot",
+          "fileName": "quick-start",
+          "extension": "html",
+          "usePrettyUrl": true,
+          "link": "https://camunda.github.io/camunda-rest-client-spring-boot/quick-start"
+        },
+        "description": "",
+        "title": "Quick Start",
+        "content": "<div class=\"sect1\">\n<h2 id=\"_quick_start\">Quick Start<\/h2>\n<div class=\"sectionbody\">\n\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_install_dependency\">Install Dependency<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>First install the extension dependency:<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-xml\" data-lang=\"xml\">&lt;dependency&gt;\n  &lt;groupId&gt;org.camunda.bpm.extension.rest&lt;/groupId&gt;\n  &lt;artifactId&gt;camunda-rest-client-spring-boot&lt;/artifactId&gt;\n  &lt;version&gt;${camunda-rest-client-spring-boot.version}&lt;/version&gt;\n&lt;/dependency&gt;<\/code><\/pre>\n<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p>and configure Feign and Feign client:<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-xml\" data-lang=\"xml\">&lt;dependency&gt;\n  &lt;groupId&gt;org.springframework.cloud&lt;/groupId&gt;\n  &lt;artifactId&gt;spring-cloud-starter-openfeign&lt;/artifactId&gt;\n&lt;/dependency&gt;\n&lt;dependency&gt;\n  &lt;groupId&gt;io.github.openfeign&lt;/groupId&gt;\n  &lt;artifactId&gt;feign-httpclient&lt;/artifactId&gt;\n&lt;/dependency&gt;<\/code><\/pre>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_configuration\">Configuration<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>In your client code, activate the usage of REST client by adding the following annotation\nto your configuration:<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-java\" data-lang=\"java\">@Configuration\n@EnableCamundaRestClient\npublic class MyClientConfiguration {\n\n}<\/code><\/pre>\n<\/div>\n<\/div>\n<div class=\"paragraph\">\n<p>In order to configure the feign client, make sure to provide usual feign client configuration\n(e.g. using <code>application.yml<\/code>). To set-up the engine base URL, please set-up the property:<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-yml\" data-lang=\"yml\">feign:\n  client:\n    config:\n      remoteRuntimeService:\n        url: \"http://your-process-engine-host/rest/engine/default/\"<\/code><\/pre>\n<\/div>\n<\/div>\n<\/div>\n<\/div>\n<div class=\"sect1\">\n<h2 id=\"_usage\">Usage<\/h2>\n<div class=\"sectionbody\">\n<div class=\"paragraph\">\n<p>To access the remote API, inject the remote API implementation:<\/p>\n<\/div>\n<div class=\"listingblock\">\n<div class=\"content\">\n<pre class=\"highlight\"><code class=\"language-java\" data-lang=\"java\">@Component\npublic class MyClient {\n\n    private RuntimeService runtimeService;\n\n    public MyClient(@Qualifier(\"remote\") RuntimeService runtimeService) {\n        this.runtimeService = runtimeService;\n    }\n\n    public void start() {\n        this.runtimeService\n            .startProcessInstanceByKey(\"my_process_key\");\n    }\n\n    public void correlate() {\n        this.runtimeService\n            .createMessageCorrelation(\"message_received\")\n            .processInstanceBusinessKey(\"WAIT_FOR_MESSAGE\")\n            .correlateAllWithResult();\n    }\n}<\/code><\/pre>\n<\/div>\n<\/div>\n<\/div>\n<\/div>"
+      }]
+    }
+  }
+}
